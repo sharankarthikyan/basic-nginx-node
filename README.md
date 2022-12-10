@@ -18,3 +18,6 @@ We are going to create 3 backend node container.
 `docker run -p 80:8080 -v <YOUR_ABS_PATH_TO_NGINX.CONF>:/etc/nginx/nginx.conf --network=backend-bridge-network nginx`
 
 example: `docker run -p 80:8080 -v /Users/sharan/Desktop/workplace/Git/basic-nginx-container/nginx.conf:/etc/nginx/nginx.conf --network=backend-bridge-network nginx`
+
+### OUTPUT
+Go to `http://localhost` or `http://127.0.0.1`, try refresh the page, you will see load balancing in `round robin`.
