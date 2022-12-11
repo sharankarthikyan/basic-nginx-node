@@ -16,6 +16,7 @@ We are going to create 3 backend node container.
 
 1. `docker run --hostname nodeapp1 --name nodeapp1 -d --network=backend-bridge-network nodeapp`
 2. `docker run --hostname nodeapp2 --name nodeapp2 -d --network=backend-bridge-network nodeapp`
+3. `docker run --hostname nodeapp3 --name nodeapp3 -d --network=backend-bridge-network nodeapp`
 
 ### NGINX server
 
