@@ -29,4 +29,4 @@ example:
 
 ### OUTPUT
 
-Go to `http://localhost` or `http://127.0.0.1`, try refresh the page, you will see load balancing in `round robin`.
+Go to `http://localhost` or `http://127.0.0.1`, try refresh the page, you will see load balancing in `ip hash`.
